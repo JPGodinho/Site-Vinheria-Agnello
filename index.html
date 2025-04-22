@@ -1,12 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <title>Vinheria Agnello</title>
+    <meta name="description" content="Vinheria Agnello - Os melhores vinhos nacionais e importados para você. Conheça nossa seleção de vinhos tintos, brancos, rosés e espumantes.">
+    <meta name="keywords" content="vinho, vinhos, vinheria, vinheria agnello, vinhos tintos, vinhos brancos, vinhos rosés, espumantes, loja de vinhos">
+    <title>Vinheria Agnello - Os melhores vinhos para você</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <h1>Bem vindo a Vinheria Agnello</h1>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Vinheria Agnello</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="src/pages/historia.html">História</a></li>
+                    <li><a href="src/pages/produtos.html">Produtos</a></li>
+                    <li><a href="src/pages/contato.html">Contato</a></li>
+                    <li><a href="src/pages/blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container">
+                <h2>Bem-vindo à Vinheria Agnello</h2>
+                <p>Descubra o prazer de degustar os melhores vinhos selecionados especialmente para você</p>
+                <a href="src/pages/produtos.html" class="btn">Ver Produtos</a>
+            </div>
+        </section>
+
+        <section class="destaques">
+            <div class="container">
+                <h2>Vinhos em Destaque</h2>
+                <div class="produtos-grid">
+                    <div class="produto-card">
+                        <img src="src/assets/imgs/vinho-tinto.jpg" alt="Vinho Tinto">
+                        <h3>Vinho Tinto Reserva</h3>
+                        <p>R$ 89,90</p>
+                        <a href="#" class="btn-comprar">Comprar</a>
+                    </div>
+                    <div class="produto-card">
+                        <img src="src/assets/imgs/vinho-branco.jpg" alt="Vinho Branco">
+                        <h3>Vinho Branco Suave</h3>
+                        <p>R$ 69,90</p>
+                        <a href="#" class="btn-comprar">Comprar</a>
+                    </div>
+                    <div class="produto-card">
+                        <img src="src/assets/imgs/vinho-rose.jpg" alt="Vinho Rosé">
+                        <h3>Vinho Rosé Premium</h3>
+                        <p>R$ 79,90</p>
+                        <a href="#" class="btn-comprar">Comprar</a>
+                    </div>
+                    <div class="produto-card">
+                        <img src="src/assets/imgs/espumante.jpg" alt="Espumante">
+                        <h3>Espumante Brut</h3>
+                        <p>R$ 99,90</p>
+                        <a href="#" class="btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="categorias">
+            <div class="container">
+                <h2>Conheça Nossos Vinhos</h2>
+                <div class="categorias-grid">
+                    <div class="categoria-card">
+                        <img src="src/assets/imgs/categoria-tinto.jpg" alt="Vinhos Tintos">
+                        <h3>Vinhos Tintos</h3>
+                        <a href="#" class="btn-categoria">Ver Mais</a>
+                    </div>
+                    <div class="categoria-card">
+                        <img src="src/assets/imgs/categoria-branco.jpg" alt="Vinhos Brancos">
+                        <h3>Vinhos Brancos</h3>
+                        <a href="#" class="btn-categoria">Ver Mais</a>
+                    </div>
+                    <div class="categoria-card">
+                        <img src="src/assets/imgs/categoria-rose.jpg" alt="Vinhos Rosés">
+                        <h3>Vinhos Rosés</h3>
+                        <a href="#" class="btn-categoria">Ver Mais</a>
+                    </div>
+                    <div class="categoria-card">
+                        <img src="src/assets/imgs/categoria-espumante.jpg" alt="Espumantes">
+                        <h3>Espumantes</h3>
+                        <a href="#" class="btn-categoria">Ver Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="clube">
+            <div class="container">
+                <h2>Clube de Assinatura</h2>
+                <p>Assine nosso clube e receba mensalmente uma seleção exclusiva de vinhos escolhidos por nossos especialistas.</p>
+                <div class="clube-beneficios">
+                    <ul>
+                        <li>Vinhos selecionados por especialistas</li>
+                        <li>Descontos exclusivos</li>
+                        <li>Entrega em todo o Brasil</li>
+                        <li>Conteúdo exclusivo sobre vinhos</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <h2>Vinheria Agnello</h2>
+                </div>
+                <div class="footer-contato">
+                    <h3>Contato</h3>
+                    <p>Endereço: Rua dos Vinhedos, 123</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                    <p>Email: contato@vinheriaagnello.com.br</p>
+                </div>
+                <div class="footer-redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Receba nossas novidades</p>
+                    <form>
+                        <input type="email" placeholder="Seu e-mail">
+                        <button type="submit">Assinar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
 </body>
 </html>
