@@ -97,7 +97,7 @@ nav ul li a.active {
 
 
 .banner {
-    background-image: url('../assets/imgs/banner.jpg');
+    background-image: url('../assets/imgs/banner.gif');
     background-size: cover;
     background-position: center;
     color: var(--cor-branco);
