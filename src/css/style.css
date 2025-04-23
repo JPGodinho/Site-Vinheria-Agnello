@@ -55,7 +55,7 @@ img {
     background-color: var(--cor-terciaria);
 }
 
-/* Header */
+
 header {
     background-color: var(--cor-primaria);
     color: var(--cor-branco);
@@ -95,7 +95,7 @@ nav ul li a.active {
     background-color: var(--cor-secundaria);
 }
 
-/* Banner */
+
 .banner {
     background-image: url('../assets/imgs/banner.jpg');
     background-size: cover;
@@ -131,7 +131,7 @@ nav ul li a.active {
     margin-bottom: 30px;
 }
 
-/* Seção de Destaques */
+
 .destaques {
     padding: 60px 0;
     background-color: var(--cor-cinza-claro);
@@ -191,7 +191,7 @@ nav ul li a.active {
     background-color: var(--cor-terciaria);
 }
 
-/* Seção de Categorias */
+
 .categorias {
     padding: 60px 0;
 }
@@ -254,7 +254,7 @@ nav ul li a.active {
     opacity: 1;
 }
 
-/* Seção do Clube */
+
 .clube {
     padding: 60px 0;
     background-color: var(--cor-primaria);
@@ -304,7 +304,7 @@ nav ul li a.active {
     background-color: var(--cor-cinza);
 }
 
-/* Footer */
+
 footer {
     background-color: var(--cor-terciaria);
     color: var(--cor-branco);
