@@ -74,6 +74,16 @@ header .container {
 .logo h1 {
     font-size: 1.8rem;
     font-weight: bold;
+    animation: logoAumentar 3s linear infinite;
+}
+
+@keyframes logoAumentar {
+    from,to{
+        scale: 100%;
+    }
+    50%{
+        scale: 80%;
+    }
 }
 
 nav ul {
