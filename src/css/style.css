@@ -51,9 +51,7 @@ img {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: var(--cor-terciaria);
-}
+
 
 
 header {
@@ -100,10 +98,7 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover, 
-nav ul li a.active {
-    background-color: var(--cor-secundaria);
-}
+
 
 
 .banner {
@@ -167,9 +162,7 @@ nav ul li a.active {
     transition: transform 0.3s ease;
 }
 
-.produto-card:hover {
-    transform: translateY(-5px);
-}
+
 
 .produto-card img {
     width: 100%;

@@ -1,0 +1,12 @@
+.produto-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn:hover {
+    background-color: var(--cor-terciaria);
+}
+
+nav ul li a:hover, 
+nav ul li a.active {
+    background-color: var(--cor-secundaria);
+}
