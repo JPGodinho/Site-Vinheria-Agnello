@@ -51,9 +51,7 @@ img {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: var(--cor-terciaria);
-}
+
 
 
 header {
@@ -71,20 +69,6 @@ header .container {
     align-items: center;
 }
 
-.logo h1 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    animation: logoAumentar 3s linear infinite;
-}
-
-@keyframes logoAumentar {
-    from,to{
-        scale: 100%;
-    }
-    50%{
-        scale: 80%;
-    }
-}
 
 nav ul {
     display: flex;
@@ -100,10 +84,7 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover, 
-nav ul li a.active {
-    background-color: var(--cor-secundaria);
-}
+
 
 
 .banner {
@@ -167,9 +148,7 @@ nav ul li a.active {
     transition: transform 0.3s ease;
 }
 
-.produto-card:hover {
-    transform: translateY(-5px);
-}
+
 
 .produto-card img {
     width: 100%;
@@ -347,9 +326,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-redes ul li a:hover {
-    text-decoration: underline;
-}
+
 
 .footer-newsletter form {
     display: flex;

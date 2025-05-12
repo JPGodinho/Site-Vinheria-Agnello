@@ -1,0 +1,31 @@
+.produto-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn:hover {
+    background-color: var(--cor-terciaria);
+}
+
+nav ul li a:hover, 
+nav ul li a.active {
+    background-color: var(--cor-secundaria);
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    animation: logoAumentar 3s linear infinite;
+}
+
+@keyframes logoAumentar {
+    from,to{
+        scale: 100%;
+    }
+    50%{
+        scale: 80%;
+    }
+}
+
+.footer-redes ul li a:hover {
+    text-decoration: underline;
+}
