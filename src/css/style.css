@@ -236,11 +236,14 @@ nav ul li a {
     padding: 10px 20px;
     border-radius: 5px;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    cursor: pointer;
+    transition: opacity 0.3s ease, background-color 1s ease;
 }
 
-.categoria-card:hover .btn-categoria {
-    opacity: 1;
+.categoria-card .btn-categoria:hover {
+    opacity: 100%;
+    background-color: rgb(208, 172, 255);
+    color: white;
 }
 
 
