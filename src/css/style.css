@@ -69,20 +69,6 @@ header .container {
     align-items: center;
 }
 
-.logo h1 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    animation: logoAumentar 3s linear infinite;
-}
-
-@keyframes logoAumentar {
-    from,to{
-        scale: 100%;
-    }
-    50%{
-        scale: 80%;
-    }
-}
 
 nav ul {
     display: flex;
@@ -340,9 +326,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-redes ul li a:hover {
-    text-decoration: underline;
-}
+
 
 .footer-newsletter form {
     display: flex;
