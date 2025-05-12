@@ -129,7 +129,13 @@
     position: relative;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.8s ease, background-color 0.8s ease;
 }
+.timeline-conteudo:hover {
+    transform: translateY(-5px  );
+    background-color: rgb(208, 172, 255);
+}
+
 
 .timeline-conteudo h3 {
     color: var(--cor-primaria);
