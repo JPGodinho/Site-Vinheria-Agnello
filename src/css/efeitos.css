@@ -74,3 +74,19 @@ tbody tr:hover {
 .faq-item h3:hover {
     color: var(--cor-secundaria);
 }
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-blog:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.btn-evento:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.newsletter-form .btn:hover {
+    background-color: var(--cor-cinza);
+}
