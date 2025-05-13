@@ -117,14 +117,4 @@
 .faq-item h3:hover {
     color: var(--cor-secundaria);
 }
-
-@media (max-width: 768px) {
-    .contato-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .contato-dados {
-        margin-top: 40px;
-    }
-}
  

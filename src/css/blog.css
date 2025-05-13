@@ -263,30 +263,3 @@
 .newsletter-form .btn:hover {
     background-color: var(--cor-cinza);
 }
-
-@media (max-width: 768px) {
-    .blog-destaque-content {
-        grid-template-columns: 1fr;
-    }
-    
-    .blog-destaque-img {
-        margin-bottom: 30px;
-    }
-    
-    .evento-card {
-        flex-direction: column;
-    }
-    
-    .evento-data {
-        flex-direction: row;
-        padding: 10px;
-    }
-    
-    .evento-dia {
-        margin-right: 5px;
-    }
-    
-    .newsletter-form {
-        flex-direction: column;
-    }
-}
