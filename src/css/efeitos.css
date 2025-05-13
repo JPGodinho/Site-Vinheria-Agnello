@@ -49,3 +49,7 @@ nav ul li a.active {
 .clube .btn:hover {
     background-color: var(--cor-cinza);
 }
+
+tbody tr:hover {
+    background-color: rgba(106, 13, 173, 0.05);
+}
