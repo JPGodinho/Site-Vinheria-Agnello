@@ -176,36 +176,3 @@
     transform: scale(1.05);
 }
 
-@media (max-width: 768px) {
-    .historia-conteudo .container {
-        grid-template-columns: 1fr;
-    }
-    
-    .historia-imagem {
-        order: -1;
-        margin-bottom: 30px;
-    }
-    
-    .timeline::after {
-        left: 31px;
-    }
-    
-    .timeline-item {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-    
-    .timeline-item:nth-child(even) {
-        left: 0;
-    }
-    
-    .timeline-data {
-        left: 0;
-        right: auto;
-    }
-    
-    .timeline-item:nth-child(even) .timeline-data {
-        left: 0;
-    }
-}

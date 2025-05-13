@@ -49,21 +49,3 @@ tbody tr:hover {
     background-color: rgba(106, 13, 173, 0.05);
 }
 
-@media (max-width: 768px) {
-    .filtros-container {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .filtro-grupo {
-        width: 100%;
-    }
-    
-    .tabela-container {
-        font-size: 14px;
-    }
-    
-    th, td {
-        padding: 8px 10px;
-    }
-}
