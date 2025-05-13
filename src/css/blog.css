@@ -61,14 +61,6 @@
     gap: 30px;
 }
 
-.blog-card {
-    background-color: white;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
 .blog-card img {
     width: 100%;
     height: 200px;
@@ -83,16 +75,6 @@
     color: var(--cor-primaria);
     margin-bottom: 10px;
     font-size: 1.3rem;
-}
-
-.btn-blog {
-    display: inline-block;
-    background-color: var(--cor-primaria);
-    color: white;
-    padding: 8px 15px;
-    border-radius: 4px;
-    margin-top: 15px;
-    transition: background-color 0.3s;
 }
 
 .video-section {
@@ -194,15 +176,6 @@
     margin: 10px 0 15px;
 }
 
-.btn-evento {
-    display: inline-block;
-    background-color: var(--cor-primaria);
-    color: white;
-    padding: 8px 15px;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
 .newsletter-blog {
     padding: 60px 0;
     background-color: var(--cor-primaria);
@@ -236,15 +209,5 @@
     padding: 12px;
     border: none;
     border-radius: 4px;
-}
-
-.newsletter-form .btn {
-    background-color: white;
-    color: var(--cor-primaria);
-    border: none;
-    padding: 12px 25px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
 }
 
