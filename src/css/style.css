@@ -231,13 +231,6 @@ nav ul li a {
     transition: opacity 0.3s ease, background-color 1s ease;
 }
 
-.categoria-card .btn-categoria:hover {
-    opacity: 100%;
-    background-color: rgb(208, 172, 255);
-    color: white;
-}
-
-
 .clube {
     padding: 60px 0;
     background-color: var(--cor-primaria);
@@ -282,11 +275,6 @@ nav ul li a {
     background-color: var(--cor-branco);
     color: var(--cor-primaria);
 }
-
-.clube .btn:hover {
-    background-color: var(--cor-cinza);
-}
-
 
 footer {
     background-color: var(--cor-terciaria);
