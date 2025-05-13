@@ -66,3 +66,11 @@ tbody tr:hover {
 .galeria-item:hover img {
     transform: scale(1.05);
 }
+
+.form-grupo button:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.faq-item h3:hover {
+    color: var(--cor-secundaria);
+}
