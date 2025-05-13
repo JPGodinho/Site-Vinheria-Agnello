@@ -176,11 +176,6 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-.btn-comprar:hover {
-    background-color: var(--cor-terciaria);
-}
-
-
 .categorias {
     padding: 60px 0;
 }
@@ -209,10 +204,6 @@ nav ul li a {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
-}
-
-.categoria-card:hover img {
-    transform: scale(1.05);
 }
 
 .categoria-card h3 {

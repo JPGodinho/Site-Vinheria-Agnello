@@ -31,3 +31,11 @@ nav ul li a.active {
 .footer-redes ul li a:hover {
     text-decoration: underline;
 }
+
+.btn-comprar:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.categoria-card:hover img {
+    transform: scale(1.05);
+}
