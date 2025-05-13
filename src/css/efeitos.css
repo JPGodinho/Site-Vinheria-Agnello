@@ -12,9 +12,11 @@ nav ul li a.active {
 }
 
 .logo h1 {
-    font-size: 1.8rem;
+    font-size: 0.5rem;
     font-weight: bold;
     animation: logoAumentar 3s linear infinite;
+    width: 30%;
+    height: 100%;
 }
 
 @keyframes logoAumentar {
