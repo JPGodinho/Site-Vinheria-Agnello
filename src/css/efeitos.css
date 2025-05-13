@@ -53,3 +53,16 @@ nav ul li a.active {
 tbody tr:hover {
     background-color: rgba(106, 13, 173, 0.05);
 }
+
+.valor-card:hover {
+    transform: translateY(-5px);
+}
+
+.timeline-conteudo:hover {
+    transform: translateY(-5px  );
+    background-color: rgb(208, 172, 255);
+}
+
+.galeria-item:hover img {
+    transform: scale(1.05);
+}

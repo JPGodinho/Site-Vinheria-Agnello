@@ -51,10 +51,6 @@
     transition: transform 0.3s ease;
 }
 
-.valor-card:hover {
-    transform: translateY(-5px);
-}
-
 .valor-card h3 {
     color: var(--cor-primaria);
     margin-bottom: 15px;
@@ -131,11 +127,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.8s ease, background-color 0.8s ease;
 }
-.timeline-conteudo:hover {
-    transform: translateY(-5px  );
-    background-color: rgb(208, 172, 255);
-}
-
 
 .timeline-conteudo h3 {
     color: var(--cor-primaria);
@@ -172,7 +163,5 @@
     transition: transform 0.3s ease;
 }
 
-.galeria-item:hover img {
-    transform: scale(1.05);
-}
+
 
