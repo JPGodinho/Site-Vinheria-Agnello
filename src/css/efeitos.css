@@ -90,3 +90,40 @@ tbody tr:hover {
 .newsletter-form .btn:hover {
     background-color: var(--cor-cinza);
 }
+
+.blog-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.btn-blog {
+    display: inline-block;
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn-evento {
+    display: inline-block;
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form .btn {
+    background-color: white;
+    color: var(--cor-primaria);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
