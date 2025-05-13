@@ -1,0 +1,49 @@
+.produto-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn:hover {
+    background-color: var(--cor-terciaria);
+}
+
+nav ul li a:hover, 
+nav ul li a.active {
+    background-color: var(--cor-secundaria);
+}
+
+.logo h1 {
+    font-size: 0.5rem;
+    font-weight: bold;
+    animation: logoAumentar 3s linear infinite;
+    width: 30%;
+    height: 100%;
+}
+
+@keyframes logoAumentar {
+    from,to{
+        scale: 100%;
+    }
+    50%{
+        scale: 80%;
+    }
+}
+
+.footer-redes ul li a:hover {
+    text-decoration: underline;
+}
+
+.produto-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-comprar:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.categoria-card:hover img {
+    transform: scale(1.05);
+}
+
+.categoria-card:hover .btn-categoria {
+    opacity: 1;
+}
