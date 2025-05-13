@@ -31,3 +31,62 @@ nav ul li a.active {
 .footer-redes ul li a:hover {
     text-decoration: underline;
 }
+
+.btn-comprar:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.categoria-card:hover img {
+    transform: scale(1.05);
+}
+
+.categoria-card .btn-categoria:hover {
+    opacity: 100%;
+    background-color: rgb(208, 172, 255);
+    color: white;
+}
+
+.clube .btn:hover {
+    background-color: var(--cor-cinza);
+}
+
+tbody tr:hover {
+    background-color: rgba(106, 13, 173, 0.05);
+}
+
+.valor-card:hover {
+    transform: translateY(-5px);
+}
+
+.timeline-conteudo:hover {
+    transform: translateY(-5px  );
+    background-color: rgb(208, 172, 255);
+}
+
+.galeria-item:hover img {
+    transform: scale(1.05);
+}
+
+.form-grupo button:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.faq-item h3:hover {
+    color: var(--cor-secundaria);
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-blog:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.btn-evento:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.newsletter-form .btn:hover {
+    background-color: var(--cor-cinza);
+}

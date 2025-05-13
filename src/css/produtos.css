@@ -45,7 +45,5 @@ tbody tr:nth-child(even) {
     background-color: var(--cor-cinza-claro);
 }
 
-tbody tr:hover {
-    background-color: rgba(106, 13, 173, 0.05);
-}
+
 

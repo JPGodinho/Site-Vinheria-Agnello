@@ -53,10 +53,6 @@
     transition: background-color 0.3s;
 }
 
-.form-grupo button:hover {
-    background-color: var(--cor-terciaria);
-}
-
 .form-grupo input.valido,
 .form-grupo select.valido,
 .form-grupo textarea.valido {
@@ -114,7 +110,5 @@
     cursor: pointer;
 }
 
-.faq-item h3:hover {
-    color: var(--cor-secundaria);
-}
+
  
